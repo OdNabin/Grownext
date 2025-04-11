@@ -37,14 +37,7 @@ const Cloud = () => {
         </div>
    </div>
    <div style={{backgroundColor:"#EFEFEF"}}>
-     {/* <div className="container my-5">
-           <div className="row common">
-               <div className="col-md-6 my-5">
-                   <img src="./MobileAppDevelopment/Business.png" alt=""  className='img'/>
-               </div>
-               <div className="col-md-6"></div>
-           </div>
-        </div> */}
+     
           <div className="container my-5 abouts">
          <div className="row common my-5">
            <div className="col-md-6 common my-5">
