@@ -7,7 +7,7 @@
 
 }
 .nav-item{
-    padding: 0 50px !important;
+    padding: 0 34px !important;
 }
 
 body{
@@ -203,3 +203,10 @@ span{
   width:150px;
   padding: 3px;
 }
+.nav-link.active{
+    background-color: white !important;
+}
+.map .nav-link{
+    color: black !important;
+}
+ 

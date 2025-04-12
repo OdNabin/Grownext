@@ -139,29 +139,7 @@ const Home = () => {
        
    </div>
 
-   
-<div className="container   m">
-  <p className='text-center mb-4'>Join 4,000+ companies already growing</p>
-  <div className='d-flex justify-content-between mb-5 company-logos'>
-    <div>
-      <img src="./icons/Home/c1.png" alt="" />
-    </div>
-    <div>
-      <img src="./icons/Home/c2.png" alt="" />
-    </div>
-    <div>
-      <img src="./icons/Home/c3.png" alt="" />
-    </div>
-    <div>
-      <img src="./icons/Home/c4.png" alt="" />
-    </div>
-    <div>
-      <img src="./icons/Home/c5.png" alt="" />
-    </div>
-  </div>
 
-  <hr style={{marginTop:"50px",border:"1px dashed gray"}} />
-</div>
 
 <div className="container mb-5">
          <div>

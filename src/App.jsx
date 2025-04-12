@@ -16,6 +16,7 @@ import Cloud from './Pages/service/Cloud'
 import Mulesoft from './Pages/service/Mulesoft'
 import Service from './Pages/Service'
 import Blog from './Pages/Blog'
+import AiResearch from './Pages/service/AiResearch'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,6 +36,7 @@ function App() {
         <Route path='/cloud' element={<Cloud />} />
         <Route path='/mulesoft' element={<Mulesoft />} />
         <Route path='/service' element={<Service />} />
+        <Route path='/AiResearch' element={<AiResearch />} />
         <Route path='/blog' element={<Blog />} />
       </Routes>
       <Footer/>

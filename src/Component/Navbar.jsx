@@ -33,6 +33,10 @@ const Navbar = () => {
           {/* <li className="nav-item">
             <a className="nav-link" >Our Work</a>
           </li> */}
+
+<li className='nav-item'>
+            <a className={`nav-link ${window.location.pathname === "/AiResearch" ? "active" : ""}`}  onClick={()=>navigate("/AiResearch")}>Ai Research</a>
+          </li>
           <li className='nav-item'>
             <a className={`nav-link ${window.location.pathname === "/blog" ? "active" : ""}`}  onClick={()=>navigate("/blog")}>Blog</a>
           </li>
