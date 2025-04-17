@@ -90,7 +90,7 @@ const Contact = () => {
              </div>
                <h5>Location</h5>
                <p>Driven by passion, we stay 
-               ahead to deliver cutting-edge solutions.</p>
+               ahead to deliver cutting-edge   .</p>
             </div>
             <div className="col-md-4 about-box">
             <div className='d-flex mb-3 justify-content-center align-items-center'>
@@ -98,7 +98,7 @@ const Contact = () => {
              </div>
                <h5>Phone</h5>
                <p>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             <div className="col-md-4 about-box">
             <div className='d-flex mb-3 justify-content-center align-items-center'>

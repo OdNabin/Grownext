@@ -203,9 +203,9 @@ span{
   width:150px;
   padding: 3px;
 }
-.nav-link.active{
+/* .nav-link.active{
     background-color: white !important;
-}
+} */
 .map .nav-link{
     color: black !important;
 }

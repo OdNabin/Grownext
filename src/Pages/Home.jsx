@@ -13,7 +13,7 @@ const Home = () => {
        <div className="row d-flex justify-content-center align-items-center">
         <div className="col-md-6 ">
           <h1 className='heading text-center'>Empowering Businesses with 
-          Innovative Software Solutions</h1>
+          Innovative Software   </h1>
         </div>
        </div>
        <div className="row d-flex justify-content-center align-items-center
@@ -42,7 +42,7 @@ const Home = () => {
 
     </div>
     <div className="container home-page   d-flex justify-content-center align-items-center ">
-        <img src="./icons/Home/Home1.png" alt="" className='Home-page' style={{width:"100%"}} />
+        <img src="./icons/Home/home2.png" alt="" className='Home-page' style={{width:"100%"}} />
         <button className='btn' style={{width:"200px"}}>Book a Metting</button>
      
        </div>
@@ -100,14 +100,14 @@ const Home = () => {
          <div className="row  row d-flex justify-content-between align-items-center   " >
            <div className="col-md-6 d-grid box justify-content-center align-items-center" onClick={()=>navigate("/aiDeveloment")}>
              <img src="./icons/Home/gpt.png" alt="" className='my-3' />
-            <h3 className='heading-1 text-start'>AI & Machine Learning Solutions</h3>
+            <h3 className='heading-1 text-start'>AI & Machine Learning   </h3>
             <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
             <span className='span'>Get Started Today</span>
             <br />
            </div>
            <div className="col-md-6 d-grid box justify-content-center align-items-center" onClick={()=>navigate("/middleware")}>
            <img src="./icons/Home/salesforce.png" alt="" className='my-3'/>
-           <h3 className='heading-1 text-start'>Middleware Integration Solutions</h3>
+           <h3 className='heading-1 text-start'>Middleware Integration   </h3>
            <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
            <span className='span'>Get Started Today</span>
            <br />
@@ -120,7 +120,7 @@ const Home = () => {
          <div className="row row d-flex justify-content-between align-items-center   ">
            <div className="col-md-6 d-grid box justify-content-center align-items-center"  onClick={()=>navigate("/cloud")}>
              <img src="./icons/Home/cloud.png" alt="" className='my-3' />
-            <h3 className='heading-1 text-start'>Cloud Services & Solutions</h3>
+            <h3 className='heading-1 text-start'>Cloud Services &   </h3>
             <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
 
             <span className='span'>Get Started Today</span>
@@ -128,7 +128,7 @@ const Home = () => {
            </div>
            <div className="col-md-6 d-grid box justify-content-center align-items-center" onClick={()=>navigate("/mulesoft")}>
            <img src="./icons/Home/mulesoft.png" alt="" className='my-3'/>
-           <h3 className='heading-1 text-start'>MuleSoft Integration Solutions</h3>
+           <h3 className='heading-1 text-start'>MuleSoft Integration   </h3>
            <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
            <span className='span'>Get Started Today</span>
            <br />
@@ -168,7 +168,7 @@ const Home = () => {
              </div>
                <h5>Innovation at Your Fingertips</h5>
                <p>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             </div>
             <div className="col-md-4 about-box">
@@ -178,7 +178,7 @@ const Home = () => {
              </div>
                <h5>Innovation at Your Fingertips</h5>
                <p>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             </div>
             <div className="col-md-4 about-box ">
@@ -188,7 +188,7 @@ const Home = () => {
              </div>
                <h5>Innovation at Your Fingertips</h5>
                <p>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             </div>
           </div>
@@ -205,7 +205,7 @@ const Home = () => {
              </div>
                <h5>Innovation at Your Fingertips</h5>
                <p>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             </div>
             <div className="col-md-5 about-box">
@@ -215,7 +215,7 @@ const Home = () => {
              </div>
                <h5>Innovation at Your Fingertips</h5>
                <p>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             </div>
            
@@ -235,7 +235,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce solutions. Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 '>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
@@ -243,7 +243,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce solutions. Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 '>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
@@ -251,7 +251,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce solutions. Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 '>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
@@ -259,7 +259,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce solutions. Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 '>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
@@ -332,7 +332,7 @@ const Home = () => {
              </div>
                <h5 className='text-center'>Still have questions?</h5>
                <p className='text-center'>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             </div>
         </div>

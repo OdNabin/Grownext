@@ -7,8 +7,8 @@ const Middleware = () => {
   return (
     <div>
     <div className="container-fluid mb-2">
-    <h6 className='text-center mb-2  common' style={{color:"#075DF0",fontSize:"18px"}}><p style={{color:"blue",cursor:"pointer"}} onClick={()=>navigate("/service")}>Service</p><p className='ps-2 pe-2'>/</p><p >Middleware Integration Solutions</p></h6>
-        <h1 className='text-center heading'>Middleware Integration Solutions</h1>
+    <h6 className='text-center mb-2  common' style={{color:"#075DF0",fontSize:"18px"}}><p style={{color:"blue",cursor:"pointer"}} onClick={()=>navigate("/service")}>Service</p><p className='ps-2 pe-2'>/</p><p >Middleware Integration   </p></h6>
+        <h1 className='text-center heading'>Middleware Integration   </h1>
         <div className="container">
            <div className="row d-flex justify-content-center">
                <div className="col-md-6">

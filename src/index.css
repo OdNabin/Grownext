@@ -1,7 +1,12 @@
 
-@media (max-width: 1025px) {
+@media (max-width: 1400px) {
   li.nav-item {
     padding: 0 25px !important;
+}
+}
+@media (max-width: 1200px) {
+  li.nav-item {
+    padding: 0 7px !important;
 }
 }
 

@@ -11,7 +11,7 @@ const About = () => {
             <div className="row d-flex justify-content-center">
                 <div className="col-md-7">
                 <div>
-            <p className='text-center'>Welcome to GrowNext, where innovation meets technology. We are a leading software development company dedicated to delivering cutting-edge solutions that empower businesses to thrive in the digital age. Our expertise spans a diverse array of technologies, including Python, Artificial Intelligence, Machine Learning, Middleware solutions like MuleSoft and Salesforce, as well as Cloud and Mobile Services, particularly with Flutter.</p>
+            <p className='text-center'>Welcome to GrowNext, where innovation meets technology. We are a leading software development company dedicated to delivering cutting-edge    that empower businesses to thrive in the digital age. Our expertise spans a diverse array of technologies, including Python, Artificial Intelligence, Machine Learning, Middleware    like MuleSoft and Salesforce, as well as Cloud and Mobile Services, particularly with Flutter.</p>
           </div>
                 </div>
                 <div className="col-md-7 my-5">
@@ -30,7 +30,7 @@ const About = () => {
              </div>
                <h5>Pioneering Technology</h5>
                <p>Driven by passion, we stay 
-               ahead to deliver cutting-edge solutions.</p>
+               ahead to deliver cutting-edge   .</p>
             </div>
             <div className="col-md-4 about-box">
             <div className='d-flex mb-3 justify-content-center align-items-center'>
@@ -38,7 +38,7 @@ const About = () => {
              </div>
                <h5>Innovation at Your Fingertips</h5>
                <p>We provide the most advanced
-               solutions to keep you ahead.</p>
+                  to keep you ahead.</p>
             </div>
             <div className="col-md-4 about-box">
             <div className='d-flex mb-3 justify-content-center align-items-center'>
