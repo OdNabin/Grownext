@@ -420,4 +420,10 @@ padding: 0px !important;
   justify-content: center;
   align-items: center;
 }
+.tx{
+  font-size: 15px;
+}
+div.container.contact {
+  padding: 10px 10px !important;
+}
   }

@@ -63,13 +63,13 @@ const Contact = () => {
    <div className="container">
    <ul class="nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
   <li class="nav-item" role="presentation">
-    <span class="nav-link text-center active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">India</span>
+    <span class="nav-link text-center active tx" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">India</span>
   </li>
   <li class="nav-item" role="presentation">
-    <span class="nav-link text-center" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Uk</span>
+    <span class="nav-link tx text-center" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Uk</span>
   </li>
   <li class="nav-item" role="presentation">
-    <span class="nav-link text-center" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Us</span>
+    <span class="nav-link text-center tx" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Us</span>
   </li>
 
 </ul>
@@ -78,7 +78,7 @@ const Contact = () => {
   <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5100.081133919991!2d78.55630262438845!3d17.381852327877855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDIyJzQ2LjciTiA3OMKwMzMnMjguMSJF!5e0!3m2!1sen!2sin!4v1743763253886!5m2!1sen!2sin" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.602871661592!2d0.05825747651945148!3d52.28691137200093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8743aacc15555%3A0xe60f9818994d025a!2sGrowNext!5e0!3m2!1sen!2sin!4v1744284418085!5m2!1sen!2sin" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.602871661592!2d0.05825747651945148!3d52.28691137200093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8743aacc15555%3A0xe60f9818994d025a!2sGrowNext!5e0!3m2!1sen!2sin!4v1744284418085!5m2!1sen!2sin" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.4894649533016!2d-96.7798454!3d33.06990529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c22cdc48298f9%3A0xc738dc8fc072df1c!2s4512%20Legacy%20Dr%2C%20Plano%2C%20TX%2075024%2C%20USA!5e0!3m2!1sen!2sin!4v1746528019084!5m2!1sen!2sin" width="100%" height="400"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
 </div>
    </div>
