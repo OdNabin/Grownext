@@ -8,7 +8,7 @@ const Navbar = () => {
      <div className="container">
      <nav className=" navbar navbar-expand-lg ">
   <div className="container  Navbar align-items-center   my-3" style={{borderRadius:"30px",padding:"10px",backgroundColor:"#EAEAE8"}}>
-    <a className="navbar-brand ps-1" href="#"><img src="/logo.png" alt="logo" srcset="" className='logo' /></a>
+    <a className="navbar-brand ps-1" href="#"><img src="./icons/Home/logo.png" alt="logo" srcset="" className='logo' /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
