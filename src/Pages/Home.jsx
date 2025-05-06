@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Reaptcontact from '../Component/Reaptcontact'
+import Service from './Service'
 
 const Home = () => {
   const navigate = useNavigate()
@@ -12,14 +13,14 @@ const Home = () => {
        </div>
        <div className="row d-flex justify-content-center align-items-center">
         <div className="col-md-6 ">
-          <h1 className='heading text-center'>Empowering Businesses with 
+          <h1 className='heading text-center'>Empowering Businesses with x  
           Innovative Software   </h1>
         </div>
        </div>
        <div className="row d-flex justify-content-center align-items-center
        ">
-        <div className="col-md-5">
-          <p className='text-center ps-5 pe-5'>
+        <div className="col-md-5 big">
+          <p className='text-center ps-5 pe-5 '>
           Expertise in AI, ML, Python, Middleware, 
           Cloud, and Mobile Services
           </p>
@@ -42,9 +43,14 @@ const Home = () => {
 
     </div>
     <div className="container home-page   d-flex justify-content-center align-items-center ">
-        <img src="./icons/Home/home2.png" alt="" className='Home-page' style={{width:"100%"}} />
-        <button className='btn' style={{width:"200px"}}>Book a Metting</button>
+        <img src="./icons/Home/home2.png" alt="" className='Home-page home-pages' style={{width:"100%"}} />
      
+     <div className='posi'>
+     <img src="./icons/Home/mulesoft1.png" alt="" className='my-3' />
+     </div>
+     <div className='posin'>
+     <img src="./icons/Home/salesforce1.png" alt="" className='my-3'/>
+     </div>
        </div>
 
 
@@ -53,7 +59,7 @@ const Home = () => {
      
 
 <div className="container m">
-  <p className='text-center cen'>Join 4,000+ companies already growing</p>
+  <p className='thome-pagesext-center text-center jus cen'>Join 4,000+ companies already growing</p>
   <div className='d-flex company-logos justify-content-between '>
     <div>
       <img src="./icons/Home/c1.png" alt="" />
@@ -72,77 +78,15 @@ const Home = () => {
     </div>
   </div>
 </div>
-    <div  className='service m'>
-   
-   <div className="container">
-         <div className="row d-flex justify-content-between align-items-center  ">
-           <div className="col-md-6 d-grid box justify-content-between align-items-center" onClick={()=>navigate("/mobileAppDeveloment")}>
-             <img src="./icons/Home/flutter1.png" alt="" className='my-3' />
-            <h3 className='heading-1 text-start'>Mobile App Development</h3>
-            <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
 
-            <span className='span'>Get Started Today</span>
-        
-            <br />
-           </div>
-           <div onClick={()=>navigate("/pythonDeveloment")}  className="col-md-6 d-grid box justify-content-center align-items-center">
-           <img src="./icons/Home/python.png" alt="" className='my-3'/>
-           <h3 className='heading-1 text-start'>Python Development Services</h3>
-           <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
-           <span className='span'>Get Started Today</span>
-        
-        <br />
-           </div>
-         </div>
-        </div>
-   
-        <div className="container my-4">
-         <div className="row  row d-flex justify-content-between align-items-center   " >
-           <div className="col-md-6 d-grid box justify-content-center align-items-center" onClick={()=>navigate("/aiDeveloment")}>
-             <img src="./icons/Home/gpt.png" alt="" className='my-3' />
-            <h3 className='heading-1 text-start'>AI & Machine Learning   </h3>
-            <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
-            <span className='span'>Get Started Today</span>
-            <br />
-           </div>
-           <div className="col-md-6 d-grid box justify-content-center align-items-center" onClick={()=>navigate("/middleware")}>
-           <img src="./icons/Home/salesforce.png" alt="" className='my-3'/>
-           <h3 className='heading-1 text-start'>Middleware Integration   </h3>
-           <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
-           <span className='span'>Get Started Today</span>
-           <br />
-           </div>
-         </div>
-        </div>
-        
-          
-        <div className="container my-4">
-         <div className="row row d-flex justify-content-between align-items-center   ">
-           <div className="col-md-6 d-grid box justify-content-center align-items-center"  onClick={()=>navigate("/cloud")}>
-             <img src="./icons/Home/cloud.png" alt="" className='my-3' />
-            <h3 className='heading-1 text-start'>Cloud Services &   </h3>
-            <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
-
-            <span className='span'>Get Started Today</span>
-            <br />
-           </div>
-           <div className="col-md-6 d-grid box justify-content-center align-items-center" onClick={()=>navigate("/mulesoft")}>
-           <img src="./icons/Home/mulesoft.png" alt="" className='my-3'/>
-           <h3 className='heading-1 text-start'>MuleSoft Integration   </h3>
-           <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
-           <span className='span'>Get Started Today</span>
-           <br />
-           </div>
-         </div>
-        </div>
-
-       
-   </div>
+<div className='m'>
+  <Service/>
+</div>
 
 
 
 <div className="container mb-5">
-         <div>
+         <div className='jus'>
         <p className='text-center ' style={{color:"#075DF0",fontSize:"18px"}}>Our Values</p>
        </div>
        <div className="row d-flex justify-content-center align-items-center">
@@ -166,9 +110,8 @@ const Home = () => {
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
              </div>
-               <h5>Innovation at Your Fingertips</h5>
-               <p>We provide the most advanced
-                  to keep you ahead.</p>
+               <h5>Innovation First</h5>
+               <p>We constantly explore, experiment, and evolve. We believe the best solutions come from curiosity and bold thinking.</p>
             </div>
             </div>
             <div className="col-md-4 about-box">
@@ -176,9 +119,8 @@ const Home = () => {
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
              </div>
-               <h5>Innovation at Your Fingertips</h5>
-               <p>We provide the most advanced
-                  to keep you ahead.</p>
+               <h5>Quality Over Everything</h5>
+               <p>From code to customer experience, we hold ourselves to the highest standards. Good enough is never enough.</p>
             </div>
             </div>
             <div className="col-md-4 about-box ">
@@ -186,9 +128,8 @@ const Home = () => {
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
              </div>
-               <h5>Innovation at Your Fingertips</h5>
-               <p>We provide the most advanced
-                  to keep you ahead.</p>
+               <h5>User-Centric Design</h5>
+               <p>We build software with the user in mind—intuitive, accessible, and built to solve real problems.</p>
             </div>
             </div>
           </div>
@@ -198,27 +139,33 @@ const Home = () => {
 
          <div className="container my-5">
           <div className="row common">
-            <div className="col-md-5 about-box ">
+            <div className="col-md-4 about-box ">
             <div className='home-box'>
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
              </div>
-               <h5>Innovation at Your Fingertips</h5>
-               <p>We provide the most advanced
-                  to keep you ahead.</p>
+               <h5>Collaboration & Transparency</h5>
+               <p>We work as one team—open, honest, and supportive. Communication and trust are at the core of how we build.</p>
             </div>
             </div>
-            <div className="col-md-5 about-box">
+            <div className="col-md-4 about-box">
             <div className='home-box'>
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
              </div>
-               <h5>Innovation at Your Fingertips</h5>
-               <p>We provide the most advanced
-                  to keep you ahead.</p>
+               <h5>Agility with Purpose</h5>
+               <p>We move fast, but we never rush. We adapt quickly to change while staying focused on long-term goals.</p>
             </div>
             </div>
-           
+            <div className="col-md-4 about-box">
+            <div className='home-box'>
+            <div className='d-flex mb-3 justify-content-center align-items-center'>
+             <img src="./icons/about icons/icon2.png" alt="" />
+             </div>
+               <h5>Impact-Driven Work</h5>
+               <p>We measure success by the value we deliver. Our work must create positive, lasting change for users, clients, and communities.</p>
+            </div>
+            </div>
           </div>
          </div>
 
@@ -236,7 +183,7 @@ const Home = () => {
             <div className="col-md-3 about-box ">
             <div className='home-box'>
                <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
-               <div className='d-flex mb-3 '>
+               <div className='d-flex mb-3 jus '>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
             </div>
@@ -244,7 +191,7 @@ const Home = () => {
             <div className="col-md-3 about-box ">
             <div className='home-box'>
                <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
-               <div className='d-flex mb-3 '>
+               <div className='d-flex mb-3 jus'>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
             </div>
@@ -252,7 +199,7 @@ const Home = () => {
             <div className="col-md-3 about-box ">
             <div className='home-box'>
                <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
-               <div className='d-flex mb-3 '>
+               <div className='d-flex mb-3 jus'>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
             </div>
@@ -260,7 +207,7 @@ const Home = () => {
             <div className="col-md-3 about-box ">
             <div className='home-box'>
                <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
-               <div className='d-flex mb-3 '>
+               <div className='d-flex mb-3 jus'>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
             </div>
@@ -326,7 +273,7 @@ const Home = () => {
        <div className="container  m">
         <div className="row">
         <div className="col-md-12 ">
-            <div className='home-box  '>
+            <div className='  '>
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/Avatar group.png" alt="" />
              </div>

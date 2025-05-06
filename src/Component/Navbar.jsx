@@ -8,13 +8,13 @@ const Navbar = () => {
      <div className="container">
      <nav className=" navbar navbar-expand-lg ">
   <div className="container  Navbar align-items-center   my-3" style={{borderRadius:"30px",padding:"10px",backgroundColor:"#EAEAE8"}}>
-    <a className="navbar-brand ps-1" href="#"><img src="Logo1.png" alt="" srcset="" /></a>
+    <a className="navbar-brand ps-1" href="#"><img src="logo.png" alt="" srcset="" className='logo' /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><img src="Logo1.png" alt="" srcset="" /></h5>
+        <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><img src="logo.png" alt="" srcset="" className='logo'/></h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
@@ -35,7 +35,7 @@ const Navbar = () => {
           </li> */}
 
 <li className='nav-item'>
-            <a className={`nav-link ${window.location.pathname === "/AiResearch" ? "active" : ""}`}  onClick={()=>navigate("/AiResearch")}>Ai Research</a>
+            <a className={`nav-link ${window.location.pathname === "/AiResearch" ? "active" : ""}`}  onClick={()=>navigate("/AiResearch")}>AI Research</a>
           </li>
           <li className='nav-item'>
             <a className={`nav-link ${window.location.pathname === "/blog" ? "active" : ""}`}  onClick={()=>navigate("/blog")}>Blog</a>
@@ -49,7 +49,7 @@ const Navbar = () => {
       
       </div>
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+       
       </div>
     </div>
   </div>

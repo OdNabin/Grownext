@@ -46,19 +46,44 @@ const Mulesoft = () => {
            </div>
         </div> */}
           <div className="container my-5 abouts">
-         <div className="row common my-5">
+         <div className="row  my-5">
+         <div className="col-md-6  m">
+    
+    <p>
+We specialize in delivering end-to-end MuleSoft integration solutions that help enterprises unify their applications, data, and devices. Whether it's legacy modernization, API-led connectivity, or third-party integration, our certified MuleSoft experts deliver scalable, secure, and agile solutions to drive digital transformation.
+    </p>
+
+ <div className='box-layer'>
+ <ul className="ul-style list-disc list-inside space-y-3 m">
+    <h5>what we offer</h5>
+          <li>
+            <p>MuleSoft Anypoint Platform Implementation</p>
+          </li>
+          <li>
+           <p> API Design, Development & Management</p>
+          </li>
+          <li>
+          <p>System Integration & Legacy Modernization</p>
+          </li>
+          <li>
+      <p>Microservices Architecture Enablement</p>
+          </li>
+          <li>
+            <p>Cloud-to-On-Premise & SaaS Integration</p>
+          </li>
+          <li>
+            <p>Real-Time Data Synchronization</p>
+          </li>
+          <li>
+            <p>MuleSoft Runtime & Application Management</p>
+          </li>
+        </ul>
+ </div>
+  </div>
            <div className="col-md-6 common my-5">
-             <img src="./MobileAppDevelopment/Business.png" alt="" srcset="" />
+             <img src="./MobileAppDevelopment/mulesoftint.jpg" className='mulesoft' alt="" srcset="" />
            </div>
-           <div className="col-md-6  ">
-         
-             <h3 className=' heading mb-3'>
-             Business Management 
-             </h3>
-             <p>
-             A robust enterprise app designed to streamline operations, improve productivity, and enhance team collaboration.
-             </p>
-           </div>
+        
          </div>
         </div>
      </div>
@@ -68,15 +93,33 @@ const Mulesoft = () => {
          <div className="row common my-5">
           
            <div className="col-md-6  ">
-             <h3 className=' heading mb-3'>
-             E-commerce Shopping
-             </h3>
-             <p>
-             A fully customizable e-commerce solution with seamless checkout, product browsing, and secure payment integration.
-             </p>
+           <div className='box-layer'>
+ <ul className="ul-style list-disc list-inside space-y-3 m">
+    <h5> Why Choose Us</h5>
+          <li>
+            <p>Certified MuleSoft Developers & Architects</p>
+          </li>
+          <li>
+           <p>Proven success across banking, healthcare, retail, and logistics</p>
+          </li>
+          <li>
+          <p>Deep experience with API-led connectivity and RAML/OAS standards</p>
+          </li>
+          <li>
+      <p>Accelerated delivery using reusable API assets</p>
+          </li>
+          <li>
+            <p>Focus on performance, security, and scalability</p>
+          </li>
+          <li>
+            <p>Integration across Salesforce, SAP, Oracle, Workday, ServiceNow, and more</p>
+          </li>
+      
+        </ul>
+ </div>
            </div>
            <div className="col-md-6 common my-5">
-             <img src="./MobileAppDevelopment/ecommerce.png" alt="" srcset="" />
+             <img src="./MobileAppDevelopment/mulesoft1.jpg" alt="" srcset="" />
            </div>
          </div>
         </div>

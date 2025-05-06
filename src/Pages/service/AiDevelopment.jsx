@@ -46,41 +46,80 @@ const AiDevelopment = () => {
                <div className="col-md-6"></div>
            </div>
         </div> */}
-          <div className="container my-5 abouts">
-         <div className="row common my-5">
-           <div className="col-md-6 common my-5">
-             <img src="./MobileAppDevelopment/Business.png" alt="" srcset="" />
-           </div>
-           <div className="col-md-6  ">
-         
-             <h3 className=' heading mb-3'>
-             Business Management 
-             </h3>
-             <p>
-             A robust enterprise app designed to streamline operations, improve productivity, and enhance team collaboration.
-             </p>
-           </div>
-         </div>
-        </div>
+    <div className="p-6 md:p-12 max-w-6xl mx-auto text-gray-800">
+
+<div className="container">
+  <div className="row common">
+    <div className="col-md-6">
+      
+    <p className="">
+        At the heart of our company is a passionate, highly skilled Artificial Intelligence research team—focused on building intelligent systems that drive innovation and deliver real-world value.
+      </p>
+
+      <p className="">
+        We don’t just follow trends—we create them. Our team combines deep academic knowledge with practical industry insight to explore the full potential of AI across various sectors.
+      </p>
+
+    </div>
+
+    <div className="col-md-6 common my-5">
+              <img src="./MobileAppDevelopment/airesearch.jpg" alt="" srcset="" style={{width:"100%",objectFit:"cover",borderRadius:"30px"}} />
+            </div>
+    </div>
+
+</div>
+    
+    </div>
      </div>
 
-
-     <div className="container my-5 abouts">
-         <div className="row common my-5">
-          
-           <div className="col-md-6  ">
-             <h3 className=' heading mb-3'>
-             E-commerce Shopping
-             </h3>
-             <p>
-             A fully customizable e-commerce solution with seamless checkout, product browsing, and secure payment integration.
-             </p>
-           </div>
-           <div className="col-md-6 common my-5">
-             <img src="./MobileAppDevelopment/ecommerce.png" alt="" srcset="" />
-           </div>
-         </div>
+<div className="container">
+  <div className="row d-flex justify-content-between align-items-center">
+  <div className='layer2 col-md-4 '>
+        <h5>Our Mission</h5>
+        <p className='my-3'>To lead the way in AI innovation by developing robust, ethical, and scalable technologies—crafted by a team that understands both the science and the responsibility behind it.
+        </p>
         </div>
+        <div className='layer2 col-md-4'>
+        <h5>Meet Our Research Team</h5>
+        <p className='my-3'>Our AI team is composed of PhDs, engineers, and domain experts with a shared passion for discovery and problem-solving. We combine academic depth with industry agility to take ideas from research to real-world impact.
+        </p>
+        </div>
+        <div className='layer2 col-md-4'>
+        <h5>Looking Ahead</h5>
+        <p className='my-3'>We're always exploring new opportunities for collaboration, industry partnerships, and joint innovation. Whether it's healthcare, finance, manufacturing, or emerging tech—we bring intelligence to every challenge.
+        </p>
+        </div> 
+  </div>
+</div>
+
+<div className="container">
+  <div className="row my-5">
+  <div className="col-md-6 common my-5">
+              <img src="./MobileAppDevelopment/research.jpg" alt="" srcset="" style={{width:"100%",objectFit:"cover",borderRadius:"30px"}} />
+            </div>
+    <div className="col-md-6">
+    <div className='layer'>
+    <ul className="list-disc list-inside space-y-3">
+          <li>
+            <strong>Machine Learning & Deep Learning:</strong> Custom models tailored to complex business problems, from predictive systems to advanced neural networks.
+          </li>
+          <li>
+            <strong>Natural Language Processing (NLP):</strong> Building intelligent language models for understanding, generating, and interacting with human language.
+          </li>
+          <li>
+            <strong>Computer Vision:</strong> Developing visual recognition systems for applications in automation, security, retail, and healthcare.
+          </li>
+          <li>
+            <strong>Autonomous Decision Systems:</strong> Designing AI that can reason, plan, and make decisions in dynamic environments.
+          </li>
+          <li>
+            <strong>Generative AI & Creativity:</strong> Exploring the future of content creation and problem-solving with generative models.
+          </li>
+        </ul>
+    </div>
+    </div>
+  </div>
+</div>
         <Reaptcontact />
   </div>
   )

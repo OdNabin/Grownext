@@ -15,7 +15,9 @@ const Reaptcontact = () => {
               <p>
               A robust enterprise app designed to streamline operations, improve productivity, and enhance team collaboration.
               </p>
-              <button className='btn' style={{width:"150px"}}>Get In touch</button>
+         <div className='jus'>
+         <button className='btn ' style={{width:"150px"}}>Get In touch</button>
+         </div>
             </div>
         </div>
        </div>

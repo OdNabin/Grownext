@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-      <div className="container contact">
+      <div className="container contact" style={{padding:"0px"}}>
         <div className="row">
             <div className="col-md-6 form" >
              <h3 className='ps-3 heading'>Contact us</h3>
