@@ -34,7 +34,7 @@ const MobileAppDevelpment = () => {
 
        </div>
          <div className='d-flex justify-content-center align-items-center'>
-            <img src="./MobileAppDevelopment/mobile.png" className='mobile' alt="" />
+            <img src="./MobileAppDevelopment/mobiledev.png" className='mobile' alt="" />
          </div>
     </div>
     <div style={{backgroundColor:"#EFEFEF"}}>

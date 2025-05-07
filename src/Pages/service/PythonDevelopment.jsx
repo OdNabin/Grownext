@@ -9,8 +9,8 @@ const PythonDevelopment = () => {
     
     <div className='overflow'>
      <div className="container-fluid mb-2">
-     <h6 className='text-center mb-2  common' style={{color:"#075DF0",fontSize:"18px"}}><p style={{color:"blue",cursor:"pointer"}} onClick={()=>navigate("/service")}>Service</p><p className='ps-2 pe-2'>/</p><p >Python Development Services</p></h6>
-         <h1 className='text-center heading'>Python Development Services</h1>
+     <h6 className='text-center mb-2  common' style={{color:"#075DF0",fontSize:"18px"}}><p style={{color:"blue",cursor:"pointer"}} onClick={()=>navigate("/service")}>Service</p><p className='ps-2 pe-2'>/</p><p >Python Development </p></h6>
+         <h1 className='text-center heading'>Python Development </h1>
          <div className="container">
             <div className="row d-flex justify-content-center">
                 <div className="col-md-6">
@@ -24,15 +24,15 @@ const PythonDevelopment = () => {
          </div>
             <div className="row home d-flex justify-content-center align-items-center
        ">
-        <div className="col-md-4  col-sm-4 d-flex justify-content-end align-items-center">
+        {/* <div className="col-md-4  col-sm-4 d-flex justify-content-end align-items-center">
          <img src="./icons/Home/flutter.png" alt="" />
-        </div>
+        </div> */}
         <div className="col-md-4 col-sm-4  d-flex justify-content-center align-items-center">
          <button className='btn' style={{width:"200px"}}>Book a Metting</button>
         </div>
-        <div className="col-md-4  col-sm-4 d-flex justify-content-start align-items-center">
+        {/* <div className="col-md-4  col-sm-4 d-flex justify-content-start align-items-center">
          <img src="./icons/Home/react.png" alt="" />
-        </div>
+        </div> */}
 
        </div>
          <div className='d-flex justify-content-center my-5 align-items-center'>
@@ -43,7 +43,7 @@ const PythonDevelopment = () => {
 <div className="container">
 <div className="row  d-flex justify-content-start align-items-start my-5">
            
-           <div className="col-md-7 ">
+           <div className="col-md-7 m">
              <h3 className=' heading mb-3'>
              Python Development 
              </h3>
@@ -53,9 +53,9 @@ const PythonDevelopment = () => {
              <p>Our team is proficient in major Python frameworks including Django, Flask, and FastAPI, enabling us to build everything from MVPs for startups to enterprise-grade platforms.</p>
 
              <div>
-             <h3 className=' heading mb-3'>
-             Python Development Services
-             </h3>
+             {/* <h3 className=' heading mb-3'>
+             Python Development 
+             </h3> */}
              <ul className="ul-style">
           <li>
             <strong>Custom Web Application Development</strong><p>Dynamic and responsive applications using Django and Flask with frontend integrations (React, Vue, etc.).</p>

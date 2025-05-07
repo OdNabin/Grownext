@@ -300,3 +300,11 @@ text-align: center;
  .mulesoft{
     height: 600px !important;
  }
+ .company-logos img{
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    }
+    .rev{
+        text-align: start ;
+    }

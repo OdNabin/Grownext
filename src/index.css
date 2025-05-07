@@ -139,7 +139,7 @@
     width: 160% !important;
 }
 p{
-  text-align: center !important;
+  text-align: start !important;
 }
 .padd{
   padding: 10px !important;
@@ -196,8 +196,8 @@ width: 100%;
 object-fit: cover;
 border-radius: 20px;
 }
-.company-logos img{
-width: 70px;
+.company-logos img {
+  width:70px !important;
 }
 .cen{
 text-align: center !important;
@@ -285,12 +285,12 @@ margin-bottom: 10px;
     .text-start{
       text-align: justify !important;
     }
-    .mobile{
-      margin-top:5px !important;
-      width: 160% !important;
+    .mobile {
+      margin-top: -17px !important;
+      width: 172% !important;
   }
   p{
-    text-align: center !important;
+    text-align: start !important;
   }
   .padd{
     padding: 10px !important;
@@ -347,8 +347,9 @@ label.nav-link{
   object-fit: cover;
   border-radius: 20px;
 }
-.company-logos img{
-  width: 70px;
+.company-logos img {
+  width: 62px !important;
+  aspect-ratio: 3/2;
 }
 .cen{
   text-align: center !important;
@@ -425,5 +426,21 @@ padding: 0px !important;
 }
 div.container.contact {
   padding: 10px 10px !important;
+}
+.pyth {
+  height: 350px !important;
+  object-fit: cover;
+  border-radius: 9px;
+}
+.pytho {
+  height: 350px !important;
+
+}
+
+.group{
+  padding: 15px;
+}
+.rev{
+  text-align: center !important;
 }
   }

@@ -19,7 +19,7 @@ const Service = () => {
             </div>
             <div onClick={()=>navigate("/pythonDeveloment")}  className="col-md-6 d-grid box justify-content-center align-items-center">
             <img src="./icons/Home/python1.png" alt="" className='my-3' style={{width:"70px"}}/>
-            <h3 className='heading-1 text-start'>Python Development Services</h3>
+            <h3 className='heading-1 text-start'>Python Development</h3>
             <p className='text-start'>Build high-performance, cross-platform mobile apps with a seamless user experience, tailored to your business needs.</p>
             <span className='span'>Get Started Today</span>
          

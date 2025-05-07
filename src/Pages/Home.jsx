@@ -6,7 +6,7 @@ import Service from './Service'
 const Home = () => {
   const navigate = useNavigate()
   return (
-    <div>
+    <div className='overflow'>
     <div className="container">
        <div>
         <p className='text-center cen'>Innovate. Transform. Thrive.</p>
@@ -59,22 +59,22 @@ const Home = () => {
      
 
 <div className="container m">
-  <p className='thome-pagesext-center text-center jus cen'>Join 4,000+ companies already growing</p>
-  <div className='d-flex company-logos justify-content-between '>
-    <div>
-      <img src="./icons/Home/c1.png" alt="" />
+  {/* <p className='thome-pagesext-center text-center jus cen'>Join US</p> */}
+  <div className='d-flex company-logos justify-content-between align-items-center'>
+  <div>
+      <img src="./icons/Home/hnplogo.png" alt="" />
     </div>
     <div>
-      <img src="./icons/Home/c2.png" alt="" />
+      <img src="./icons/Home/grafterr.svg" alt="" />
     </div>
     <div>
-      <img src="./icons/Home/c3.png" alt="" />
+      <img src="./icons/Home/mcca.png" alt="" />
+    </div>
+    <div>
+      <img src="./icons/Home/cloudobssey.png" alt="" />
     </div>
     <div>
       <img src="./icons/Home/c4.png" alt="" />
-    </div>
-    <div>
-      <img src="./icons/Home/c5.png" alt="" />
     </div>
   </div>
 </div>
@@ -104,7 +104,7 @@ const Home = () => {
         </div>
          </div>
 <div className="container ">
-          <div className="row">
+          <div className="row group">
             <div className="col-md-4 about-box ">
             <div className='home-box'>
             <div className='d-flex mb-3 justify-content-center align-items-center'>
@@ -132,14 +132,7 @@ const Home = () => {
                <p>We build software with the user in mind—intuitive, accessible, and built to solve real problems.</p>
             </div>
             </div>
-          </div>
-         </div>
-
-         
-
-         <div className="container my-5">
-          <div className="row common">
-            <div className="col-md-4 about-box ">
+            <div className="col-md-4 about-box m">
             <div className='home-box'>
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
@@ -148,7 +141,7 @@ const Home = () => {
                <p>We work as one team—open, honest, and supportive. Communication and trust are at the core of how we build.</p>
             </div>
             </div>
-            <div className="col-md-4 about-box">
+            <div className="col-md-4 about-box m">
             <div className='home-box'>
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
@@ -157,7 +150,7 @@ const Home = () => {
                <p>We move fast, but we never rush. We adapt quickly to change while staying focused on long-term goals.</p>
             </div>
             </div>
-            <div className="col-md-4 about-box">
+            <div className="col-md-4 about-box m">
             <div className='home-box'>
             <div className='d-flex mb-3 justify-content-center align-items-center'>
              <img src="./icons/about icons/icon2.png" alt="" />
@@ -169,8 +162,12 @@ const Home = () => {
           </div>
          </div>
 
+         
 
-         <div className='d-grid justify-content-center align-items-center '>
+    
+
+
+         <div className='d-grid justify-content-center align-items-center m'>
           <p className='text-center'>Partner with Us Today</p>
           <button className='btn '>Talk to an Expert</button>
          </div>
@@ -182,7 +179,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p className='rev'>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 jus '>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
@@ -190,7 +187,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p className='rev'>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 jus'>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
@@ -198,7 +195,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p className='rev'>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 jus'>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
@@ -206,7 +203,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 about-box ">
             <div className='home-box'>
-               <p style={{textAlign:"start"}}>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
+               <p className='rev'>"GrowNext helped us streamline our digital operations with their expert Mulesoft and Salesforce   . Their team is knowledgeable, professional, and highly responsive!"</p>
                <div className='d-flex mb-3 jus'>
              <img src="./icons/about icons/star.png" alt="" />
              </div>
