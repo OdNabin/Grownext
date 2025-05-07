@@ -302,9 +302,13 @@ text-align: center;
  }
  .company-logos img{
     width: 150px;
-    aspect-ratio: 3/2;
+    height: 100px;
     object-fit: contain;
-    }
+ }
+    
     .rev{
         text-align: start ;
+    }
+    img.partner-img{
+        width: 80px ;
     }

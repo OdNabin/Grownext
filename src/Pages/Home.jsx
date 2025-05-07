@@ -62,7 +62,10 @@ const Home = () => {
   {/* <p className='thome-pagesext-center text-center jus cen'>Join US</p> */}
   <div className='d-flex company-logos justify-content-between align-items-center'>
   <div>
-      <img src="./icons/Home/hnplogo.png" alt="" />
+      <img src="./icons/Home/HNPS.png" alt="" />
+    </div>
+    <div>
+      <img src="./icons/Home/partner2.png" alt="" className='partner-img' />
     </div>
     <div>
       <img src="./icons/Home/grafterr.svg" alt="" />
@@ -71,11 +74,9 @@ const Home = () => {
       <img src="./icons/Home/mcca.png" alt="" />
     </div>
     <div>
-      <img src="./icons/Home/cloudobssey.png" alt="" />
+      <img src="./icons/Home/elms.png" alt="" />
     </div>
-    <div>
-      <img src="./icons/Home/c4.png" alt="" />
-    </div>
+ 
   </div>
 </div>
 

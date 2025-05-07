@@ -443,4 +443,7 @@ div.container.contact {
 .rev{
   text-align: center !important;
 }
+img.partner-img{
+  width: 50px !important;
+}
   }
